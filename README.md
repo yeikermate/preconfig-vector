@@ -1,6 +1,6 @@
 README.md
 
-# Preconfig Vector - Anki Vector Configuration Automation Script
+# Preconfig Vector - Anki Vector Configuration Automation Script for Python SDK
 
 This repository contains an automation script to configure an **Anki Vector** robot using the Python SDK. The script automatically detects the robot's IP on the network, responds to the interactive configuration script's prompts, and handles errors to ensure the configuration process completes successfully.
 

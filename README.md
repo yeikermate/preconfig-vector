@@ -35,7 +35,8 @@ This repository contains an automation script to configure an **Anki Vector** ro
    cp configure_vector.py /path/to/vector/sdk/
 
 Make sure the script is located in the directory where you installed the Vector SDK.
-Usage
+
+## Usage
 
 The automation script performs the following steps:
 
@@ -45,6 +46,25 @@ The automation script performs the following steps:
     Handles errors robustly, retrying the configuration if it fails.
 
 Example Execution
+
+
+Manual Configuration Required
+
+Before running the script for the first time, you must manually edit the script to provide the following information:
+
+    Robot Name: The name of your Vector robot (robot_name).
+    Wire-pod IP: The IP address of your Wire-pod instance (ip_wirepod).
+    Robot Serial Number: The serial number of your Vector robot (serial_number).
+    MAC Address: The MAC address of your Vector robot (target_mac).
+
+Edit the following variables in the configure_vector.py script:
+
+python
+
+robot_name = "Your-Robot-Name"
+serial_number = "Your-Robot-Serial-Number"
+target_mac = "Your-Robot-MAC-Address"
+ip_wirepod = "Your-Wire-Pod-IP"
 
 To run the script from the Vector SDK root directory:
 

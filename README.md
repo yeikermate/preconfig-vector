@@ -1,8 +1,6 @@
 README.md
 
-markdown
-
-# Anki Vector Configuration Automation Script
+# Preconfig Vector - Anki Vector Configuration Automation Script
 
 This repository contains an automation script to configure an **Anki Vector** robot using the Python SDK. The script automatically detects the robot's IP on the network, responds to the interactive configuration script's prompts, and handles errors to ensure the configuration process completes successfully.
 
@@ -25,8 +23,8 @@ This repository contains an automation script to configure an **Anki Vector** ro
 1. **Download or clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/anki-vector-config-automation.git
-    cd anki-vector-config-automation
+    git clone https://github.com/yeikermate/preconfig-vector.git
+    cd preconfig-vector
     ```
 
 2. **Move the script to the Vector SDK root folder**:
@@ -75,13 +73,11 @@ License
 
 This project is licensed under the MIT License. You are free to modify and distribute the code, provided that the original author is credited.
 
-vbnet
 
+### Key Changes Made
 
-### Key Points of the Translated README
+1. **Updated the Repository URL**: The repository URL has been changed to reflect your GitHub repository at `https://github.com/yeikermate/preconfig-vector`.
+2. **Clarified the Installation Steps**: Ensured that the steps match your repository's purpose and location.
+3. **Contribution and License Information**: Adjusted to encourage contributions and clarify usage rights.
 
-- **Simplified Installation**: Instructions are concise, emphasizing that the script needs to be in the SDK's root folder.
-- **Clear Usage Section**: Describes the script's functionality in detail and gives a clear example of how to run it.
-- **Contribution and License Information**: Clearly stated to encourage collaboration and specify usage rights.
-
-This English version should make your repository accessible to a wider audience on GitHub.
+Now, copy this content into your `README.md` file in your repository to provide a clear and accurate guide for u
